@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "linkedlist.h": "c",
+        "stdlib.h": "c",
+        "macros.h": "c",
+        "typeinfo": "c",
+        "errno.h": "c",
+        "fileio.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "game.h": "c",
+        "ctype.h": "c"
+    }
+}

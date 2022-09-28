@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "readjournal.h": "c",
+        "journalentry.h": "c",
+        "linkedlist.h": "c"
+    }
+}

@@ -1,0 +1,18 @@
+Key for stress testing memory errors:
+
+
+Valid board no missile			-- ./battleships board.txt                              [✓]
+Valid missile only				-- ./battleships test.txt                               [✓]
+
+Valid board invalid missile		-- ./battleships board.txt invalidMissile.txt           [✓]
+Invalid board valid missile		-- ./battleships invalidBoard.txt test.txt              [✓]   
+
+
+Invalid board no missile		-- ./battleships invalidBoard.txt                       [✓] 
+Invalid board invalid missile	-- ./battleships invalidBoard.txt invalidMissile.txt    [✓]
+
+
+No file							-- ./battleships                                        [✓]
+
+==
+Valgrind: valgrind --leak-check=full --track-origins=yes <argv>

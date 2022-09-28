@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "arrayconversion.h": "c",
+        "string.h": "c",
+        "caseconvert.h": "c"
+    }
+}
